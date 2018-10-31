@@ -8,6 +8,8 @@ argparse = "*"
 keras = "*"
 tensorflow = {file = "https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.11.0-py3-none-any.whl"}
 pillow = "*"
+opencv-python = "*"
+matplotlib = "*"
 
 [dev-packages]
 

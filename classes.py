@@ -1008,4 +1008,3 @@ class2id = {}
 for k, v in id2class.items():
     for cls in v:
         class2id[cls] = k
-

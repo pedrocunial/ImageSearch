@@ -44,17 +44,6 @@ def classify_dataset(imgs, model):
     return res
 
 
-def sort_by_idx(data):
-    res = [[]] * LEN_CLASSES
-    for path, value in data.items():
-        res[value[0]] = (path, value[1])
-
-        print(value[1])
-    return res
-    return [sorted(r, key=lambda x: x[1], reverse=True)
-            if r else [] for r in res]
-
-
 def save(data):
     with open('save/train.pkl', 'wb') as f:
         pickle.dump(data, f)
