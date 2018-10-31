@@ -43,4 +43,4 @@ Por exemplo, para o termo `banana`, a imagem de melhor probabilidade retornada f
 
 No entanto, nem todos os termos existentes no ImageNet estão representados no _dataset_, por exemplo, ao buscar pelo termo `scuba diver`, a imagem de maior probabilidade foi (com 2,15% de certeza):
 
-![scubadiver](aux/deku4.jpg)
+![scubadiver](aux/deku4.jpeg)
