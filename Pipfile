@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+argparse = "*"
+keras = "*"
+tensorflow = {file = "https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.11.0-py3-none-any.whl"}
+pillow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3"
